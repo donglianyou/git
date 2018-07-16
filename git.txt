@@ -38,3 +38,10 @@ git merge temp
 最后再提一下，上面的步骤中我们创建了temp分支，如果想要删除temp分支，也是可以的，命令如下：
 
 git branch -d temp
+
+
+
+放弃本地修改，直接覆盖之(从远程库里直接下载到本地)
+
+git reset --hard
+git pull
